@@ -8,7 +8,8 @@ int main(int argc, char **argv)
     string opt;
     if (argc == 1)
     {
-        cin >> opt;
+        help();
+        return 0;
     }
     else
     {
